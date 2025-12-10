@@ -25,7 +25,16 @@ function meelo_long_assets() {
         'meelo-main',
         get_template_directory_uri() . '/assets/css/main.css',
         ['meelo-google-fonts'],
-        '1.0'
+        '1.1'
+    );
+
+    // JS cho menu mobile
+    wp_enqueue_script(
+        'meelo-main-js',
+        get_template_directory_uri() . '/assets/js/main.js',
+        [],
+        '1.0',
+        true
     );
 }
 add_action('wp_enqueue_scripts', 'meelo_long_assets');
