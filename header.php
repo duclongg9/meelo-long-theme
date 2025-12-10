@@ -11,9 +11,14 @@
     <div class="container header-inner">
         <div class="logo">
             <a href="<?php echo esc_url(home_url('/')); ?>">
-                Longneee<span>.</span>
+                Long<span>.</span>
             </a>
         </div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+        </button>
 
         <nav class="main-nav">
             <?php
