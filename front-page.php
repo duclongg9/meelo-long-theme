@@ -22,7 +22,7 @@
 
         <div class="hero-avatar">
             <div class="hero-blob"></div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/avatar.png" alt="Long">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/avatar.jpg" alt="Long">
         </div>
     </div>
 </section>
@@ -30,7 +30,7 @@
 <!-- SERVICES -->
 <section class="section services">
     <div class="container">
-        <h2 class="section-title">Mình có thể làm gì?</h2>
+        <h2 class="section-title">Mình làm gì?</h2>
         <p class="section-subtitle">
             Một chút về các mảng mình đam mê và thường chia sẻ / nhận job freelance.
         </p>

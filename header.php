@@ -11,7 +11,7 @@
     <div class="container header-inner">
         <div class="logo">
             <a href="<?php echo esc_url(home_url('/')); ?>">
-                Long<span>.</span>
+                Longneee<span>.</span>
             </a>
         </div>
 
